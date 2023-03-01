@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Art-attack.</title>
+    <link rel="icon" href="img/1995485.png">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
@@ -12,8 +13,8 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg bg-danger">
-            <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg bg-danger"><!--fixedtop(queda fija) arregla el problema de la barra se ve en todo momento.-->
+            <div class="container-fluid ">
                 <img src="./img/1995485.png" alt="Logo" width="30" height="28" class="d-inline-block align-text-top">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -31,7 +32,7 @@
                             <a class="nav-link" href="#NOSOTROS">Nosotros</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Contactos</a>
+                            <a class="nav-link" href="#CONTACTO">Contactos</a>
                         </li>
                     </ul>
                 </div>
@@ -39,7 +40,7 @@
         </nav>
     </header>
     <!--TIPSSSS-->
-    <section>
+    <section class="container-fluid bg-dark-subtle"><!--Solucio0n del borde :D-->
         <div class="row row-cols-1 row-cols-md-3 g-4 p-4 bg-dark-subtle" id="INFO">
             <div class="col">
                 <div class="card h-100">
@@ -62,8 +63,8 @@
                     <div class="card-body">
                         <h5 class="card-title">Bienestar del automotor.</h5>
                         <p class="card-text">Para alargar la vida de nuestro vehiculo necesitamos tener un checkeo
-                            general basico
-                            (aceite,filtros de combustible, aire y acceite) esto se hace cada 10.000km.
+                            general basico y cambiar
+                            (aceite,filtros de combustible, aire y aceite) esto se hace cada 10.000km.
                         </p>
                     </div>
                     <div class="card-footer">
@@ -88,12 +89,15 @@
             </div>
             <div class="col">
                 <div class="card h-100">
-                    <img src="." class="card-img-top" alt="fotos">
+                    <img src="./img/Dormir.png" class="card-img-top" alt="fotos">
                     <div class="card-body">
-                        <h5 class="card-title">Como cuidarnos del hacking de cuentas.</h5>
-                        <p class="card-text">Para cuidarnos de futuros hackeos de cuentas, tenemos que
-                            cumplir con diferentes tipos de contraseñas para cada cuenta y que sea con todos los
-                            caracteres posibles.
+                        <h5 class="card-title">Tips para dormirse rápido.</h5>
+                        <p class="card-text">Beber algo tibio y sin cafeína como leche tibia o té de hierbas.
+                            <br>Una ducha o un baño caliente.
+                            <br>Un libro o una revista.
+                            <br>Escuchar música suave o un audiolibro.
+                            <br>Contar hacia atrás a partir de 300, de 3 en 3.
+                            <br>Meditar.
                         </p>
                     </div>
                     <div class="card-footer">
@@ -103,12 +107,15 @@
             </div>
             <div class="col">
                 <div class="card h-100">
-                    <img src="." class="card-img-top" alt="fotos">
+                    <img src="./img/ejercicio.png" class="card-img-top" alt="fotos">
                     <div class="card-body">
-                        <h5 class="card-title">Bienestar del automotor.</h5>
-                        <p class="card-text">Para alargar la vida de nuestro vehiculo necesitamos tener un checkeo
-                            general basico
-                            (aceite,filtros de combustible, aire y acceite) esto se hace cada 10.000km.
+                        <h5 class="card-title">La importancia del ejercicio.</h5>
+                        <p class="card-text">Realizar actividad física te ayuda a prevenir enfermedades como: problemas
+                            cardíacos,
+                            obesidad, diabetes y cáncer. Además, mejora el humor, la autoestima y disminuye la
+                            posibilidad
+                            de desarrollar trastornos, como depresión y ansiedad. Por esto, la necesidad de modificar el
+                            estilo de vida sedentario es cada vez más importante.
                         </p>
                     </div>
                     <div class="card-footer">
@@ -118,12 +125,14 @@
             </div>
             <div class="col">
                 <div class="card h-100">
-                    <img src="." class="card-img-top" alt="fotos">
+                    <img src="./img/abrazo.png" class="card-img-top" alt="fotos">
                     <div class="card-body">
-                        <h5 class="card-title">Lo bueno del Reciclaje.</h5>
-                        <p class="card-text">El reciclaje ayuda a nuestro planeta contra el cambio climático.
-                            Al reciclar se reduce el trabajo de extracción, transporte y elaboración de materias primas,
-                            también reduce el efecto invernadero.
+                        <h5 class="card-title">Lo bueno de los abrazos.</h5>
+                        <p class="card-text">Al abrazar se segrega oxitocina (hormona relacionada al placer), se libera
+                            serotonina y
+                            dopamina (encargadas del buen humor), lo que genera una agradable sensación de armonía y
+                            plenitud, una
+                            dosis cargada de bienestar para el cuerpo y el alma.
                         </p>
                     </div>
                     <div class="card-footer">
@@ -135,69 +144,72 @@
     </section>
     <!--NOSOTROSSSS-->
     <section>
-        <div class="accordion p-4 bg-danger" id="NOSOTROS">
-            <H2 class ="fs-3 px-2 pb-2">Acerca de Nosotros...</H2>
+        <div class="accordion accordion-flush p-4 bg-danger" id="NOSOTROS"><!--el accordion flux permite mejorar el background-->
+            <H2 class="fs-3 px-2 pb-2">Acerca de Nosotros...</H2>
             <div class="accordion-item">
-                <h2 class="accordion-header" id="headingOne">
-                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                        <img src="./img/1995485.png" alt="Logo" width="30" height="28"
-                            class="d-inline-block align-text-top">¿Qué es Art-attack?
-                    </button>
-                </h2>
-                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
-                    data-bs-parent="#accordionExample">
-                    <div class="accordion-body">
-                        <strong>Es la primera página de prueba acerca de tips randoms.</strong>
-                        Art-attack llamado como el programa de disney pero diferente concepto, ya que esta página esta
-                        dirigida a las personas curiosas que les gustan aprender cosas nuevas.
-                        <code>Art-attack</code>
-                    </div>
-                </div>
+              <h2 class="accordion-header" id="flush-headingOne">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                    <img src="./img/1995485.png" alt="Logo" width="30" height="28"> ¿Qué es Art-attack?
+                </button>
+              </h2>
+              <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body"><strong>Es la primera página de prueba acerca de tips randoms.</strong>
+                    Art-attack llamado como el programa de disney pero diferente concepto, ya que esta página esta
+                    dirigida a las personas curiosas que les gustan aprender cosas nuevas.
+                    <code>Art-attack</code></div>
+              </div>
             </div>
             <div class="accordion-item">
-                <h2 class="accordion-header" id="headingTwo">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                        <img src="./img/Art.png" alt="Logo" width="30" height="28"
-                            class="d-inline-block align-text-top">¿Por qué Art-attack?
-                    </button>
-                </h2>
-                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-                    data-bs-parent="#accordionExample">
-                    <div class="accordion-body">
-                        <strong>Art-attack es un progrma que llevaba mucho tiempo en la televisión.</strong> Esta frase
-                        de art-attack quedo guardada en nuestras mentes "ahora te toca a ti" refiriendose a que
-                        cualquiera puede hacerlo o aprender a hacerlo. <code>Art-attack</code>
-                    </div>
-                </div>
+              <h2 class="accordion-header" id="flush-headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                    <img src="./img/Art.png" alt="Logo" width="30" height="28"> ¿Por qué Art-attack?
+                </button>
+              </h2>
+              <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body"><strong>Art-attack es un programa que llevaba mucho tiempo en la televisión.</strong> Esta frase
+                    de art-attack quedo guardada en nuestras mentes "ahora te toca a ti" refiriendose a que
+                    cualquiera puede hacerlo o aprender a hacerlo. <code>Art-attack</code></div>
+              </div>
             </div>
             <div class="accordion-item">
-                <h2 class="accordion-header" id="headingThree">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                        <img src="./img/coding.png" alt="Logo" width="30" height="28"
-                            class="d-inline-block align-text-top">Planes de la web Art-Attack.
-                    </button>
-                </h2>
-                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
-                    data-bs-parent="#accordionExample">
-                    <div class="accordion-body">
-                        <strong>Lo que queremos lograr es una página entrentenida y nutritiva de información.</strong>
-                        La cual va a ser solamente de información de cosas que tal vez sabias o tal vez no, siempre
-                        intentado que la informacion sea 100% real.<code> Art-attack</code>
-                    </div>
+              <h2 class="accordion-header" id="flush-headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                    <img src="./img/coding.png" alt="Logo" width="30" height="28"> Planes de la web Art-Attack.
+                </button>
+              </h2>
+              <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body"><strong>Lo que queremos lograr es una página entrentenida y nutritiva de información.</strong>
+                    La cual va a ser solamente de información de cosas que tal vez sabias o tal vez no, siempre
+                    intentado que la informacion sea 100% real.<code> Art-attack</code></div>
+              </div>
+            </div>
+          </div>
+    </section>
+    <!--FOOTERRRRR-->
+    <section>
+        <div class="container-fluid bg-dark" id="CONTACTO">
+            
+            <div class="row p-4 text-white">
+                <div class="col-xs-12 col-md-6 col-lg-6">
+                    <h2 class="fs-3 px-2 pb-2">Proyect Dev-boo.</h2>
+                    <p class="px-2 pb-2">Página fue creada como un proyecto nuevo <span class="text-danger">"2023"</span> acompañado de Katu. &copy;</p>
+                    <div class="mb-2 pb-2"><a href="https://katu.ar/"target="_BLANK"><img class="px-4 img-fluid" width="100" height="50" src="https://katu.ar/icon.png" alt="katu"></a> PAGE KATU.</div>
+                    <div class="mb-2 pb-2"><a href="index.html"><img class="px-4 img-fluid" width="100" height="50" src="./img/mario-boo-png-clipart.png" alt="dev-boo"></a> PROYECT DEV-BOO.</div>
+                </div>
+                <div class="col-xs-12 col-md-6 col-lg-6">
+                <h2 class="fs-3 px-2 pb-2">Contactos.</h2>
+                <p class="px-2">Links para contactarnos.</p>
+                <div class="mb-2"><a href="https://github.com/DiegoLeandroBarrios"target="_BLANK"><i class="bi bi-github px-4 fs-2 "></i></a>GITHUB.</div>
+                <div class="mb-2"><a href="https://www.linkedin.com/in/dieguin-barrios-64b40b225/"target="_BLANK"><i class="bi bi-linkedin px-4 fs-2"></i></a>LINKEDIN.</div>
+                <div class="mb-2"><a href="https://getbootstrap.com/docs/5.3/getting-started/introduction/"target="_BLANK"><i class="bi bi-bootstrap px-4 fs-2"></i></a>BOTSTRAP 5.</div>
                 </div>
             </div>
         </div>
     </section>
-    <!--FOOTERRRRR-->
-    <section>
-
-    </section>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
-        crossorigin="anonymous"></script>
+        crossorigin="anonymous">
+    </script>
 </body>
 
 </html>
